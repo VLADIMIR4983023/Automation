@@ -6,18 +6,19 @@ from_address = Address("654321", "Город2", "Улица2", "Дом2", "Кв�
 cost = 500
 track = "ABCD1234"
 
-mail = Mailing(to_address, from_address, cost, track)
-print(f"Отправление {mail.track} из {mail.from_address.index}\n"
+Mailing = Mailing(to_address, from_address, cost, track)
+print(f"Отправление {Mailing.track} из {Mailing.from_address.index}\n"
 
-      f"{mail.from_address.city}\n"
+      f"{Mailing.from_address.city}\n"
 
-      f"{mail.from_address.street}\n"
+      f"{Mailing.from_address.street}\n"
 
-      f"{mail.from_address.house} - {mail.from_address.apartment} в \n"
-      f"{mail.to_address.index}\n"
+      f"{Mailing.from_address.house} - {Mailing.from_address.apartment} в \n"
 
-      f"{mail.to_address.city}, {mail.to_address.street}\n"
+      f"{Mailing.to_address.index}\n"
 
-      f"{mail.to_address.house} - {mail.to_address.apartment}\n"
+      f"{Mailing.to_address.city}, {Mailing.to_address.street}\n"
 
-      f"Стоимость {mail.cost} рублей.")
+      f"{Mailing.to_address.house} - {Mailing.to_address.apartment}\n"
+
+      f"Стоимость {Mailing.cost} рублей.")
