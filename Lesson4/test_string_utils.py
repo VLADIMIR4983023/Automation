@@ -103,16 +103,14 @@ def test_to_list3():
 """contains"""
 
 
-@pytest.mark.parametrize("string", "symbol", "result", [
+@pytest.mark.parametrize("input_str, char, expected_result", [
     ("SkyPro", "S", True),
-    ("Hello", "H", True),
-    ("SkyPro", "U", False),
-    ("Hello", "", False)
+    ("Hello", "o", True),
+    ("Python", "X", False)
 ])
-def test_contains(string, symbol, result):
-    utils1 = StringUtils()
-    resultat = utils1.contains(string, symbol)
-    assert resultat == result
+def test_contains(input_str, char, expected_result):
+    utils = StringUtils()
+    assert utils.contains(input_str, char) == expected_result
 
 
 """delete_symbol"""
