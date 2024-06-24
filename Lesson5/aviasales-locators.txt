@@ -1,0 +1,19 @@
+Локаторы Aviasales:
+
+Локатор логотипа (html-елемент, содержащий в себе значок и слово "авиасейлс") - <"span.s__PcdUOp87I1e0rHSKIZrv">
+
+Локатор поля Откуда - <"input[aria-autocomplete=list][placeholder=Откуда]">
+
+Локатор поля Куда - <"input[aria-autocomplete=list][placeholder=Куда]">
+
+Локатор поля Когда - <"button.s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__QOH8_RMDyCm4BxeyrqOt">
+
+Локатор поля Обратно - <"button.s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__qO2qUuaHHBMsAgKGqoWL">
+
+Локатор чек-бокса "Открыть Ostrovok.ru в новой вкладке" - <"span.s__BGUqp9s2kxbNEnDjdIYc">
+
+Локатор кнопки Найти билеты - <"button[type=button].s__pYAhaCkOP9mPTxKVg5Qi.s__cQ6neS4ccCunOu9Ydn0k[aria-expanded=false]">
+
+
+
+
