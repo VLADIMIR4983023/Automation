@@ -13,6 +13,7 @@ driver = webdriver.Chrome(service=ChromeService
 def test_form_elements():
     driver.get(
         "https://bonigarcia.dev/selenium-webdriver-java/data-types.html")
+    sleep(30)
     driver.implicitly_wait(5)
     driver.maximize_window()
     driver.find_element(By.NAME, "first-name").send_keys("Иван")
@@ -29,7 +30,6 @@ def test_form_elements():
     button = driver.find_element(By.CSS_SELECTOR, 'button.btn')
     ActionChains(driver).move_to_element(button).perform()
     button.click()
-    sleep(30)
 
     zip_code_color = driver.find_element(
         By.CSS_SELECTOR, "#zip-code").value_of_css_property("background-color")
